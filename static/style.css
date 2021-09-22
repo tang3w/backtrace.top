@@ -34,6 +34,10 @@ div.page {
     background: #f1fbfe;
 }
 
-footer {
-    font-size: small;
+ul.no-bullet {
+    list-style: none;
+}
+
+ul.no-indent {
+    padding: 0;
 }
