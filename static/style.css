@@ -33,3 +33,7 @@ header nav ul li {
 div.page {
     background: #f1fbfe;
 }
+
+footer {
+    font-size: small;
+}
