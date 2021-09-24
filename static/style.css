@@ -1,21 +1,6 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    margin: 50px 25px;
-}
-
-a {
-    color: #2a99b6;
-}
-
-a:hover {
-    color: #33bbdf;
-}
-
-header, footer, div.page {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
+    margin: 0;
+    padding: 2em;
 }
 
 header nav ul {
@@ -26,12 +11,11 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin: 0 8px 0 0;
-    padding: 0;
+    padding-right: 0.5em;
 }
 
-div.page {
-    background: #f1fbfe;
+#main, footer {
+    margin-top: 2em;
 }
 
 ul.no-bullet {
