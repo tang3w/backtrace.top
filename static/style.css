@@ -4,15 +4,19 @@ body {
     font-family: sans-serif;
 }
 
-header nav ul {
+ul.main-nav {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    padding-right: 0.5em;
+ul.main-nav li {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+ul.main-nav li:last-of-type {
+    margin-right: 0;
 }
 
 a {
@@ -20,8 +24,14 @@ a {
     text-underline-position: under;
 }
 
-#main, footer {
-    margin-top: 2em;
+p {
+    line-height: 1.5;
+}
+
+hr.layout {
+    margin: 2em 0;
+    border: none;
+	border-top: 1pt solid lightgray;
 }
 
 ul.no-bullet {
